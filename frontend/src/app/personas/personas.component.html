@@ -1,0 +1,19 @@
+<div style="text-align: center">
+  <button style="cursor: pointer" (click)="irAgregar()">+</button>
+</div>
+
+<div class="box">
+  <div class="item" *ngFor="let persona of personas">
+    <ul>
+      <li>
+        <a [routerLink]="['/personas-app/personas', persona.idPersona]">
+          {{persona.nombre}} ||
+          {{persona.email}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Incrustamos el componente del form -->
+ <router-outlet></router-outlet>
