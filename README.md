@@ -2,7 +2,7 @@
 
 Listado de Personas is a very simple web app that manages users that are allocated in an SQL database, and serves them using Springboot, JPA and Angular.
 
-In this particular project, I focused on keeping things small and simple to prioritize getting used to creating a solid Angular structure. I also wanted to fully understand how the flow between routes, components and HTTP requests works.
+In this project, I kept the scope small and simple to prioritize building a clean Angular structure. My primary focus was to deeply understand the interaction between Angular components, routing, and HTTP requests, and to ensure a seamless flow of data between the frontend and backend. This approach allowed me to solidify my knowledge of Angular's core concepts and best practices.
 
 Join me as I continue to increase my Angular experience with more projects!
 
